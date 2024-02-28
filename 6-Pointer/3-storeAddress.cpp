@@ -10,7 +10,7 @@ int main()
     cout << p << endl;
     cout << *p << endl; // Dereferance operator
     *p = 8;
-    cout << *p << endl; 
+    cout << *p << endl; //Updation using Dereferance
 
     return 0;
 }
