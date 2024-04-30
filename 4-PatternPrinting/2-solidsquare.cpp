@@ -8,14 +8,14 @@
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the side of square: ";
     cin >> n;
-    for (int i = 1; i <= n; i++)
+    for (long longi = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n; j++)
+        for (long longj = 1; j <= n; j++)
         {
             cout << " * ";
         }

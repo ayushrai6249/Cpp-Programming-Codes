@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int a = 11;
-    int b = 3;
-    // int r1 = a - b * (a / b);
+    long longa = 11;
+    long longb = 3;
+    // long longr1 = a - b * (a / b);
     // cout << r1 << endl;
     // ;
-    int r2 = a % b;
+    long longr2 = a % b;
     cout << r2 << endl;
     cout << b % a << endl;
 

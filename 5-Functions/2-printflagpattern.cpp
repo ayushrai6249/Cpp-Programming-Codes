@@ -16,11 +16,11 @@ enter the number of lines in each three triangle: 3 4 5
 
 #include <iostream>
 using namespace std;
-void triangle(int n)
+void triangle(long longn)
 {
-    for (int i = 1; i <= n; i++)
+    for (long longi = 1; i <= n; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (long longj = 1; j <= i; j++)
         {
             cout << " * ";
         }
@@ -28,9 +28,9 @@ void triangle(int n)
     }
     return;
 }
-int main()
+long longmain()
 {
-    int a, b, c;
+    long longa, b, c;
     cout << "enter the number of lines in each three triangle: ";
     cin >> a >> b >> c;
     triangle(a);

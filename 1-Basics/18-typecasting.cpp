@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     float a = 2.1;
-    // int b = a; // this is not typecasting
+    // long longb = a; // this is not typecasting
     // cout << b << endl;
     cout << (int)a << endl; // typecasting
     char x = 'A';

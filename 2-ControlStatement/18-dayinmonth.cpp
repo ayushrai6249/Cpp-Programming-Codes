@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the month number: ";
     cin >> n;
     switch (n == 1 || n == 3 || n == 5 || n == 7 || n == 8 || n == 10 || n == 12)

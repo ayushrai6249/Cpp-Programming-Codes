@@ -1,22 +1,22 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int m;
+    long longm;
     cout << "Enter the size of array: ";
     cin >> m;
-    int arr[m];
+    long longarr[m];
     cout << "Enter the numbers in array: ";
-    for (int i = 0; i < m; i++)
+    for (long longi = 0; i < m; i++)
     {
         cin >> arr[i];
     }
 
-    int n;
+    long longn;
     cout << "Enter the number to search: ";
     cin >> n;
     bool flag = false;
-    for (int i = 0; i < m; i++)
+    for (long longi = 0; i < m; i++)
     {
         // if (arr[i] == n)
         // {

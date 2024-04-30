@@ -2,11 +2,11 @@
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x = 5;
-    int *ptr = &x;
-    int **pptr = &ptr;
+    long longx = 5;
+    long long*ptr = &x;
+    long long**pptr = &ptr;
     cout << ptr << " " << *pptr << " " << pptr << " " << *ptr << " " << **pptr;
     return 0;
 }

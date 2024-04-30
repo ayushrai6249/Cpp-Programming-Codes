@@ -1,24 +1,24 @@
-// In a array if marks of any student is less than 35 print its roll number.
+// In a array if marks of any student is less than 35 prlong longits roll number.
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    // int arr[6] = {50, 81, 32, 98, 22, 72};
+    // long longarr[6] = {50, 81, 32, 98, 22, 72};
 
-    int n;
+    long longn;
     cout << "Enter the number of students: ";
     cin >> n;
-    int arr[n];
+    long longarr[n];
 
     cout<<"Enter the marks of each student: ";
     // Input
-    for (int i = 0; i < 6; i++)
+    for (long longi = 0; i < 6; i++)
     {
         cin >> arr[i];
     }
 
-    for (int i = 0; i < 6; i++)
+    for (long longi = 0; i < 6; i++)
     {
         if (arr[i] < 35)
         {

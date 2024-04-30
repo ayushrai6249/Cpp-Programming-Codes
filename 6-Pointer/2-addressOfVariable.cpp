@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int a = 9;
-    int b = 9;
+    long longa = 9;
+    long longb = 9;
     cout << &a << endl; // 0x61ff0c
     cout << &b << endl; // 0x61ff08
     return 0;

@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x = 5;
+    long longx = 5;
     // cout << x << endl;
     // x++; // post increment
     // cout << x << endl;

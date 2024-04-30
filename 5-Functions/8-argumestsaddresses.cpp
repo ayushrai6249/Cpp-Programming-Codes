@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
-void fun(int x, int y)
+void fun(long longx, long longy)
 {
     cout << &x << endl;
     cout << &y << endl; // here x and y are formal parameters
     return;
 }
-int main()
+long longmain()
 {
-    int x = 7;
-    int y = 8;
+    long longx = 7;
+    long longy = 8;
     cout << &x << endl;
     cout << &y << endl;
     fun(x, y); // x and y are actual parameters

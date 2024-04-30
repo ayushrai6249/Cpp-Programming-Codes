@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int a, b, c;
+    long longa, b, c;
     cout << "enter first, second and third number: ";
     cin >> a >> b >> c;
     // if (a >= b && a >= c)  //without using nested

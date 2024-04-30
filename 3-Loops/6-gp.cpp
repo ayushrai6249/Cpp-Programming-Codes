@@ -2,13 +2,13 @@
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter n: ";
     cin >> n;
-    int a = 3;
-    for (int i = 1; i <= n; i++)
+    long longa = 3;
+    for (long longi = 1; i <= n; i++)
     {
         cout << a << " ";
         a *= 4;

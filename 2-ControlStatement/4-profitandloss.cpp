@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int c;
+    long longc;
     cout << "enter the cost price: ";
     cin >> c;
-    int s;
+    long longs;
     cout << "enter the selling price: ";
     cin >> s;
     if (c < s)

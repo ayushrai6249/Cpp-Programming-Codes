@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int a, b;
+    long longa, b;
     cout << "enter the first number: ";
     cin >> a;
     cout << "enter the second number: ";

@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     cout << 4 << endl;
     cout << 4 + 3 << endl;

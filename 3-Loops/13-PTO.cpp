@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int t = 10;
+    long longt = 10;
     while (t /= 2)
     {
         cout << "Ayush" << endl;

@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     cout << sizeof(int) << endl;   // 4 byte = 32 bits = 2^32 characters
     cout << sizeof(float) << endl; // 4 byte = 32 bits = 2^32 characters

@@ -1,21 +1,21 @@
 #include <iostream>
 using namespace std;
-void swap(int a, int b)
+void swap(long longa, long longb)
 {
-    int temp = a;
+    long longtemp = a;
     a = b;
     b = temp;
     // cout << "a = " << a << " b = " << b; // we have to use this to make M3 usable
 }
-int main()
+long longmain()
 {
-    int a, b;
+    long longa, b;
     cout << "enter a: ";
     cin >> a;
     cout << "enter b: ";
     cin >> b;
     // M1 ->
-    // int temp = a;
+    // long longtemp = a;
     // a = b;
     // b = temp;
     // M2 ->

@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void lastValue(int n, int *last)
+void lastValue(long longn, long long*last)
 {
     *last = n % 10;
     return;
 }
-void firstValue(int n, int *first)
+void firstValue(long longn, long long*first)
 {
     while (n > 9)
     {
@@ -16,16 +16,16 @@ void firstValue(int n, int *first)
     return;
 }
 
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "Enter the number: ";
     cin >> n;
 
-    int first;
+    long longfirst;
     firstValue(n, &first);
 
-    int last;
+    long longlast;
     lastValue(n, &last);
 
     cout << "The first digit is " << first << " and the last digit is " << last;

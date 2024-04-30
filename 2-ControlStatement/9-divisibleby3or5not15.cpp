@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     // Condition -> check if number is divisible by any of 3 or 5 and not by 15
 
-    int n;
+    long longn;
     cout << "enter the number: ";
     cin >> n;
     if (n % 3 == 0 || n % 5 == 0) // using nested condition

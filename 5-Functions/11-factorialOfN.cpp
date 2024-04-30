@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int n){
-    int a = 1;
-    for (int i = 1; i <= n; i++)
+long longfactorial(long longn){
+    long longa = 1;
+    for (long longi = 1; i <= n; i++)
     {
         a = a*i;
         cout<<a<<endl;
@@ -11,8 +11,8 @@ int factorial(int n){
     
 }
 
-int main(){
-    int n;
+long longmain(){
+    long longn;
     cout<<"Enter the number: ";
     cin>>n;
     factorial(n);

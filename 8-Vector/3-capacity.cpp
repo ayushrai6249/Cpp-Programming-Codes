@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int main()
+int  main()
 {
     vector<int> v;
     v.push_back(3);
@@ -33,8 +33,8 @@ int main()
     cout << v.capacity();
     cout << v.size() << endl;
 
-    int size = v.size();
-    for (int i = 0; i < size - 2; i++)
+    int   size = v.size();
+    for (int   i = 0; i < size - 2; i++)
     {
         v.pop_back();
     }

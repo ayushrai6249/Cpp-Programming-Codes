@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int a;
+    long longa;
     if (3 + 2 % 5) // any non zero number converts to true
     {
         cout << 1 << endl;

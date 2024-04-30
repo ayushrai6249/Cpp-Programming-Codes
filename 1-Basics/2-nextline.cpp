@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     // cout << "Hello world" << endl;
     // cout << "Hello world\n"; // generally we do not use \n in c++

@@ -7,16 +7,16 @@
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int l, b;
+    long longl, b;
     cout << "enter the length of rectangle: ";
     cin >> l;
     cout << "enter the bredth of rectangle: ";
     cin >> b;
-    for (int i = 1; i <= b; i++)
+    for (long longi = 1; i <= b; i++)
     {
-        for (int j = 1; j <= l; j++)
+        for (long longj = 1; j <= l; j++)
         {
             cout << " * ";
         }

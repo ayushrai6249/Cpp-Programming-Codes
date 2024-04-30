@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-void swap(int *a, int *b)
+void swap(long long*a, long long*b)
 {
-    int temp = *a;
+    long longtemp = *a;
     *a = *b;
     *b = temp;
     return;
 }
 
-int main()
+long longmain()
 {
-    int a, b;
+    long longa, b;
     cout << "Enter the numbers: ";
     cin >> a >> b;
     swap(&a, &b);

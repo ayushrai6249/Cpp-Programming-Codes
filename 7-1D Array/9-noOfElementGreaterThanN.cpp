@@ -1,24 +1,24 @@
 #include <iostream>
 #include <climits>
 using namespace std;
-int main()
+long longmain()
 {
-    int m;
+    long longm;
     cout << "Enter the size of Array: ";
     cin >> m;
-    int arr[m];
+    long longarr[m];
     cout << "Enter the numbers: ";
-    for (int i = 0; i < m; i++)
+    for (long longi = 0; i < m; i++)
     {
         cin >> arr[i];
     }
 
-    int x;
+    long longx;
     cout << "Enter the recuired number to check number of values greater than it: ";
     cin >> x;
 
-    int count = 0;
-    for (int i = 0; i < m; i++)
+    long longcount = 0;
+    for (long longi = 0; i < m; i++)
     {
         if (arr[i] > x)
         {

@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int arr[5] = {9, 86, 2, 2, 8};
-    int a = 0;
-    for (int i = 0; i < 5; i++)
+    long longarr[5] = {9, 86, 2, 2, 8};
+    long longa = 0;
+    for (long longi = 0; i < 5; i++)
     {
         a += arr[i];
     }

@@ -1,21 +1,21 @@
 #include <iostream>
 using namespace std;
-int HCF(int a, int b)
+long longHCF(long longa, long longb)
 {
-    for (int i = min(a, b); i >= 1; i--)
+    for (long longi = min(a, b); i >= 1; i--)
     {
         if (a % i == 0 && b % i == 0)
         {
-            int hcf = i;
+            long longhcf = i;
             cout << "the hcf of both number is : " << hcf;
             break;
         }
     }
     return 0;
 }
-int main()
+long longmain()
 {
-    int a, b;
+    long longa, b;
     cout << "enter both numbers a and b: ";
     cin >> a >> b;
     HCF(a, b);

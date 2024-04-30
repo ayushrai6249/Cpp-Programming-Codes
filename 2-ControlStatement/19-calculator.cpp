@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     float a, b;
     char c;

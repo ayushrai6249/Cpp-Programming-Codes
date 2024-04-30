@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-int sum(int a, int b)
+long longsum(long longa, long longb)
 {
     return a + b;
 }
-int main()
+long longmain()
 {
-    int a, b;
+    long longa, b;
     cout << "enter first and second number: ";
     cin >> a >> b;
     cout << sum(a, b);

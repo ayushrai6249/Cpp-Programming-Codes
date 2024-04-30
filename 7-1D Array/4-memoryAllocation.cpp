@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int arr[4];
-    for (int i = 0; i < 4; i++)
+    long longarr[4];
+    for (long longi = 0; i < 4; i++)
     {
         cout << &arr[i] << endl;
     }

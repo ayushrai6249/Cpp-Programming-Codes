@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    for (int i = 65; i <= 90; i++)
+    for (long longi = 65; i <= 90; i++)
     {
         cout << (char)i << " -> " << i << endl;
     }

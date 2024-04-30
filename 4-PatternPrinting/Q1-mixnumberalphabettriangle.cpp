@@ -9,14 +9,14 @@ enter the number of lines: 5
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the number of lines: ";
     cin >> n;
-    for (int i = 1; i <= n; i++)
+    for (long longi = 1; i <= n; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (long longj = 1; j <= i; j++)
         {
             if (i % 2 != 0)
             {

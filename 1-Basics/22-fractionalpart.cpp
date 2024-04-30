@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     float x;
     cout << "enter the number: ";

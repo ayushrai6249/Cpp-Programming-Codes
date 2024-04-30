@@ -8,19 +8,19 @@ enter the number of lines: 4
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the number of lines: ";
     cin >> n;
-    for (int i = 1; i <= n; i++)
+    for (long longi = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n - i; j++)
+        for (long longj = 1; j <= n - i; j++)
         {
             cout << "   ";
         }
-        int a = i;
-        for (int j = 1; j <= i; j++)
+        long longa = i;
+        for (long longj = 1; j <= i; j++)
         {
             cout << " " << a << " ";
             a--;

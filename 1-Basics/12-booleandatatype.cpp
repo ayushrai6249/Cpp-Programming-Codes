@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     // bool flag = false;  //false is 0 or off
     // cout << flag << endl;

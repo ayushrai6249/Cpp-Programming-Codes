@@ -2,10 +2,10 @@
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x = 9;
-    int *p = &x;
+    long longx = 9;
+    long long*p = &x;
     cout << &x << endl;
     cout << p << endl;
     cout << *p << endl; // Dereferance operator

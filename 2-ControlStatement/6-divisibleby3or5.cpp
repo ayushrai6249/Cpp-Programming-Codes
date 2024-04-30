@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the number: ";
     cin >> n;
     if (n % 3 == 0 || n % 5 == 0)

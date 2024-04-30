@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the number: ";
     cin >> n;
     bool flag = false;
-    for (int i = 2; i < n; i++)
+    for (long longi = 2; i < n; i++)
     {
         if (n % i == 0)
         {

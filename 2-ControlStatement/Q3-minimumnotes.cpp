@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main()
+long longmain()
 {
-    int n, y, x = 0;
+    long longn, y, x = 0;
     cout << "Enter the amount of money you have: ";
     cin >> n;
 

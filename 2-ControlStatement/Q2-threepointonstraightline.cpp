@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x1, y1, x2, y2, x3, y3;
+    long longx1, y1, x2, y2, x3, y3;
     cout << "enter the following:" << endl
          << "(x1, y1): ";
     cin >> x1 >> y1;

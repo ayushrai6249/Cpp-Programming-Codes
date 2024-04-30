@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x = 10;
-    int n = 9;
-    int y = 2;
-    int z = n / y;
+    long longx = 10;
+    long longn = 9;
+    long longy = 2;
+    long longz = n / y;
 
     cout << "the sum is: " << x + y << endl;
     cout << "the subtraction is: " << x - y << endl;

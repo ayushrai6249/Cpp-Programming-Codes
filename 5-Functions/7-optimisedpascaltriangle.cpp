@@ -9,19 +9,19 @@ enter number of rows: 5
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter number of rows: ";
     cin >> n;
-    for (int i = 0; i < n; i++)
+    for (long longi = 0; i < n; i++)
     {
-        for (int j = n - 1 - i; j > 0; j--)
+        for (long longj = n - 1 - i; j > 0; j--)
         {
             cout << " ";
         }
-        int x = 1;
-        for (int j = 0; j < i + 1; j++)
+        long longx = 1;
+        for (long longj = 0; j < i + 1; j++)
         {
             cout << x << " ";
             x = (((i - j) * x) / (j + 1));

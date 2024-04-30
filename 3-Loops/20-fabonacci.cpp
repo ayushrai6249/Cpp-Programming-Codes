@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the number: ";
     cin >> n;
-    int x = 1, y = 1, z = 0;
+    long longx = 1, y = 1, z = 0;
     if (n == 0)
     {
         cout << 0;
@@ -16,7 +16,7 @@ int main()
     }
     else
     {
-        for (int i = 3; i <= n; i++)
+        for (long longi = 3; i <= n; i++)
         {
             z = x + y;
             y = x;

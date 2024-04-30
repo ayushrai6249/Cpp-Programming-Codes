@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int i = 65;
+    long longi = 65;
     char j = 'A';
     if (i == j)
     {
@@ -13,7 +13,7 @@ int main()
         cout << 2 << endl;
     }
 
-    int k = 5;
+    long longk = 5;
     cout << k << endl
          << (k == 10) << endl
          << (k == 5) << endl

@@ -1,22 +1,22 @@
 #include <iostream>
 using namespace std;
 
-void display(int a[], int size) // int a[] is treates as int *a
+void display(long longa[], long longsize) // long longa[] is treates as long long*a
 {
-    for (int i = 0; i < size; i++)
+    for (long longi = 0; i < size; i++)
     {
         cout << a[i] << " ";
     }
     return;
 }
-void change(int b[], int size) // int b[] is treates as int *b
+void change(long longb[], long longsize) // long longb[] is treates as long long*b
 {
     b[0] = 100;
 }
-int main()
+long longmain()
 {
-    int arr[5] = {1, 4, 5, 3, 9};
-    int size = sizeof(arr) / sizeof(arr[0]);
+    long longarr[5] = {1, 4, 5, 3, 9};
+    long longsize = sizeof(arr) / sizeof(arr[0]);
     // accessing rhe elements of array in another function
     // updation, pass by value / reference?
     display(arr, size);

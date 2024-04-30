@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x = 3, y, z;
+    long longx = 3, y, z;
     y = x = 10;
     z = x < 10;
     cout << "X = " << x << " y = " << y << " z = " << z;

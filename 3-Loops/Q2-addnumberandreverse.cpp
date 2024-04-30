@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the number: ";
     cin >> n;
-    int x = 0, y = 0;
-    int a = n;
+    long longx = 0, y = 0;
+    long longa = n;
     while (a > 0)
     {
         y = y * 10;

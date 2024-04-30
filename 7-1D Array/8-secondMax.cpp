@@ -1,21 +1,21 @@
 #include <iostream>
 #include <climits>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "Enter the size of Array: ";
     cin >> n;
-    int arr[n];
+    long longarr[n];
     cout << "Enter the numbers: ";
-    for (int i = 0; i < n; i++)
+    for (long longi = 0; i < n; i++)
     {
         cin >> arr[i];
     }
 
-    int max = INT_MIN;
-    int j;
-    for (int i = 0; i < n; i++)
+    long longmax = INT_MIN;
+    long longj;
+    for (long longi = 0; i < n; i++)
     {
         if (arr[i] > max)
         {
@@ -25,8 +25,8 @@ int main()
     }
     arr[j] = INT_MIN;
 
-    int secMax = INT_MIN;
-    for (int i = 0; i < n; i++)
+    long longsecMax = INT_MIN;
+    for (long longi = 0; i < n; i++)
     {
         if (arr[i] > secMax)
         {

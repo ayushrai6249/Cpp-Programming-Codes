@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int a, b, c;
+    long longa, b, c;
     cout << "enter length of first, second and third side of triangle: ";
     cin >> a >> b >> c;
     if (a + b > c && b + c > a && a + c > b)

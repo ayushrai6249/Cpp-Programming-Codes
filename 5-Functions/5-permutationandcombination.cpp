@@ -1,25 +1,25 @@
 #include <iostream>
 using namespace std;
-int fact(int n)
+long longfact(long longn)
 {
-    int a = 1;
-    for (int i = 1; i <= n; i++)
+    long longa = 1;
+    for (long longi = 1; i <= n; i++)
     {
         a = a * i;
     }
     return a;
 }
-int comb(int n, int r)
+long longcomb(long longn, long longr)
 {
     return (fact(n) / (fact(n - r) * fact(r)));
 }
-int perm(int n, int r)
+long longperm(long longn, long longr)
 {
     return (fact(n) / fact(n - r));
 }
-int main()
+long longmain()
 {
-    int n, r;
+    long longn, r;
     cout << "enter n and r: ";
     cin >> n >> r;
     if (n < r)

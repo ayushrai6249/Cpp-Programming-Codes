@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     float r = 2.6;
     float pi = 22.0 / 7;

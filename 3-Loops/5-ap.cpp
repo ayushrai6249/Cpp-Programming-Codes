@@ -2,18 +2,18 @@
 
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter n: ";
     cin >> n;
-    for (int i = 4; i <= 3 * n + 1; i += 3)
+    for (long longi = 4; i <= 3 * n + 1; i += 3)
     {
         cout << i << " ";
     }
 
-    // int a = 1;
-    // for (int i = 1; i <= n; i++)
+    // long longa = 1;
+    // for (long longi = 1; i <= n; i++)
     // {
     //     cout << a << " ";
     //     a += 2;

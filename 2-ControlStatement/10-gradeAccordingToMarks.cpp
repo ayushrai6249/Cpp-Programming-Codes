@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     /*
     91 - 100 -> excelent
@@ -11,7 +11,7 @@ int main()
     41 - 50 -> below average
     < 40 -> fail
     */
-    int n;
+    long longn;
     cout << "enter your marks: ";
     cin >> n;
     if (n <= 100 && n > 90)

@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x;
+    long longx;
     cout << "enter the integer: ";
     cin >> x;
     // expression 1? expression 2: expression 3;

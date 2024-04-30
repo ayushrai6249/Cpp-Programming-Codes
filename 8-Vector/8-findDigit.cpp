@@ -2,10 +2,10 @@
 #include <vector>
 using namespace std;
 
-int find(vector<int> &v, int x)
+int  find(vector<int> &v, int  x)
 {
-    int n;
-    for (int i = 0; i < v.size(); i++)
+    int  n;
+    for (int  i = 0; i < v.size(); i++)
     {
         if (v.at(i) == x)
         {
@@ -15,18 +15,18 @@ int find(vector<int> &v, int x)
     return n;
 }
 
-int main()
+int  main()
 {
     vector<int> v;
     cout << "Enter the numbers(6): ";
-    for (int i = 0; i < 6; i++)
+    for (int  i = 0; i < 6; i++)
     {
-        int r;
+        int  r;
         cin >> r;
         v.push_back(r);
     }
 
-    int x;
+    int  x;
     cout << "Enter the value of x: ";
     cin >> x;
 

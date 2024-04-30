@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int a, b, c;
+    long longa, b, c;
     cout << "enter the sides of triangle: ";
     cin >> a >> b >> c;
     if (a == b && b == c)

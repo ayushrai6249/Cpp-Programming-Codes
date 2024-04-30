@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x = 5;
-    int *ptr = &x;
+    long longx = 5;
+    long long*ptr = &x;
     cout << ptr << endl;  // 0x61ff08
     cout << *ptr << endl; // 5
     (*ptr)++;

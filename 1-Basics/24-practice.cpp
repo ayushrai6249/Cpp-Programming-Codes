@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    // int n;
+    // long longn;
     // cin >> n;
     // cout << ((float)n) / 2;
     float x;

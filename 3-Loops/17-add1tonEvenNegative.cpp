@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter number of digits: ";
     cin >> n;
-    // int x = 0;
-    // for (int i = 1; i <= n; i++)
+    // long longx = 0;
+    // for (long longi = 1; i <= n; i++)
     // {
     //     if (i % 2 == 0)
     //     {
@@ -19,7 +19,7 @@ int main()
     // }
     // cout << x;
 
-    int x = 0;
+    long longx = 0;
     if (n % 2 == 0)
     {
         x = -n / 2;

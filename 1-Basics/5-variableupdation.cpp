@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x = 19;
+    long longx = 19;
     cout << x << endl;
     x = 5;
     cout << x << endl;

@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the number: ";
     cin >> n;
-    for (int i = 1; i <= n; i++)
+    for (long longi = 1; i <= n; i++)
     {
         cout << "good morning" << endl;
     }

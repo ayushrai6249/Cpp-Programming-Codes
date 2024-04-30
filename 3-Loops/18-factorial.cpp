@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the number: ";
     cin >> n;
-    int x = 1;
+    long longx = 1;
     if (n == 0)
     {
         cout << 0;

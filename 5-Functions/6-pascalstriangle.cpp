@@ -9,31 +9,31 @@ enter number of rows: 5
 
 #include <iostream>
 using namespace std;
-int fact(int n)
+long longfact(long longn)
 {
-    int a = 1;
-    for (int i = 1; i <= n; i++)
+    long longa = 1;
+    for (long longi = 1; i <= n; i++)
     {
         a = a * i;
     }
     return a;
 }
-int comb(int n, int r)
+long longcomb(long longn, long longr)
 {
     return (fact(n) / (fact(n - r) * fact(r)));
 }
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter number of rows: ";
     cin >> n;
-    for (int i = 0; i < n; i++)
+    for (long longi = 0; i < n; i++)
     {
-        for (int j = n - 1 - i; j > 0; j--)
+        for (long longj = n - 1 - i; j > 0; j--)
         {
             cout << " ";
         }
-        for (int j = 0; j < i + 1; j++)
+        for (long longj = 0; j < i + 1; j++)
         {
             cout << comb(i, j) << " ";
         }

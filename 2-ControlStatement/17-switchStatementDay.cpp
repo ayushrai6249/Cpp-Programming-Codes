@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int x;
+    long longx;
     cout << "enter day number: ";
     cin >> x;
     switch (x)

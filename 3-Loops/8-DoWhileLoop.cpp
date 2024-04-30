@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter n: ";
     cin >> n;
-    int i = n;
+    long longi = n;
     do // this condition has a spaciality -> even if condition doesnot hit once this this code will execute
     {
         cout << i << " " << endl;

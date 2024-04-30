@@ -7,12 +7,12 @@ void greeting() // initialising a function
     cout << "have a nice day" << endl; // declaring a function
     return;
 }
-int main()
+long longmain()
 {
     // greeting(); // calling a function
     cout << "hello" << endl;
     // greeting(); // calling a function
-    for (int i = 0; i < 3; i++)
+    for (long longi = 0; i < 3; i++)
     {
         greeting();
     }

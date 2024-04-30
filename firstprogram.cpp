@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+long longmain(){
     cout<<"hello world";
     return 0;
 }

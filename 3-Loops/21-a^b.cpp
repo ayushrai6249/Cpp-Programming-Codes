@@ -1,20 +1,20 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int a, b;
+    long longa, b;
     cout << "enter base: ";
     cin >> a;
     cout << "enter power: ";
     cin >> b;
-    int x = 1;
+    long longx = 1;
     if (a == 0 && b == 0)
     {
         cout << "not defined";
     }
     else if (b >= 0)
     {
-        for (int i = 1; i <= b; i++)
+        for (long longi = 1; i <= b; i++)
         {
             x = x * a;
         }
@@ -22,7 +22,7 @@ int main()
     }
     else
     {
-        for (int i = 1; i <= -b; i++)
+        for (long longi = 1; i <= -b; i++)
         {
             x = x * a;
         }

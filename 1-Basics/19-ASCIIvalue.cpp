@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
     /*
     for each character there is a value associated with it known as ASCII value

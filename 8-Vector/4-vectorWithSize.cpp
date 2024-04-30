@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int main()
+int  main()
 {
     vector<int> v1(5); // Now we can use array method [] to initialise
     cout << v1.size() << " ";

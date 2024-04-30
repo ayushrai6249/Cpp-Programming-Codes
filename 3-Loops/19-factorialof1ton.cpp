@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
-int main()
+long longmain()
 {
-    int n;
+    long longn;
     cout << "enter the number: ";
     cin >> n;
-    int x = 1;
+    long longx = 1;
     if (n == 0)
     {
         cout << "the factorial of 0 is 1";
     }
 
-    for (int i = 1; i <= n; i++)
+    for (long longi = 1; i <= n; i++)
     {
         x = x * i;
         cout << "the factorial of " << i << " is " << x << endl;

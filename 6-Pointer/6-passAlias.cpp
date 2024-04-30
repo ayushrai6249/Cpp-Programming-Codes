@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-void swap(int &a, int &b)  //Pass by reference
+void swap(long long&a, long long&b)  //Pass by reference
 {
-    int temp = a;
+    long longtemp = a;
     a = b;
     b = temp;
     return;
 }
 
-int main()
+long longmain()
 {
-    int a, b;
+    long longa, b;
     cout << "Enter the numbers: ";
     cin >> a >> b;
     swap(a, b);
